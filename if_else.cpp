@@ -14,7 +14,7 @@ int main()
         cout << "Cat";
     else if (N % 2 == 0 and N % 5 == 0)
         cout << "Dog";
-    else if (N % 2 == 0 and N % 5 == 0)
+    else if (N % 2 != 0 and N % 5 != 0)
         cout << "None";
     return 0;
 }
