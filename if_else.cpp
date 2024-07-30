@@ -12,7 +12,7 @@ int main()
         cout << "Dog";
     else if (N % 5 == 0)
         cout << "Cat";
-    else if (N % 2 == 0 and N % 5 == 0)
+    else if (N % 10 == 0)
         cout << "Dog";
     else if (N % 2 != 0 and N % 5 != 0)
         cout << "None";
