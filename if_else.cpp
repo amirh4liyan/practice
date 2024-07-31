@@ -8,12 +8,12 @@ int main()
     cout << "Enter N: ";
     cin >> N;
     
-    if (N % 2 == 0)
+    if (N % 10 == 0)
+        cout << "Snake";
+    else if (N % 2 == 0)
         cout << "Dog";
     else if (N % 5 == 0)
         cout << "Cat";
-    else if (N % 10 == 0)
-        cout << "Snake";
     else
         cout << "None";
     return 0;
