@@ -13,7 +13,7 @@ int main()
     else if (N % 5 == 0)
         cout << "Cat";
     else if (N % 10 == 0)
-        cout << "Dog";
+        cout << "Snake";
     else
         cout << "None";
     return 0;
